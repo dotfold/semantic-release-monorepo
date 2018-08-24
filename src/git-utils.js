@@ -28,10 +28,3 @@ module.exports = {
   getCommitFiles,
   getRoot,
 };
-
-
-// merge commit 
-git diff-tree --no-commit-id --name-only -r 059cc69a7aaf40d85432afc7fab2620f267700c6
-
-// actual commit
-git diff-tree --no-commit-id --name-only -r 4635eec8800660d3a421ba55156d360a0380674b
